@@ -11,7 +11,7 @@ body
 {margin:0; padding:0; color:#303030; background:#afafaf; font:76% Verdana,Tahoma,sans-serif;}
 
 #main
-{width:50%; height:100%; top:105px; left:200px; position:absolute; background:#000000;}
+{width:50%; height:100%; top:105px; left:200px; position:absolute;}
 
 #banner
 {width:545px; height:100px; top:20px; left:200px; position:absolute;}
@@ -20,7 +20,7 @@ body
 {}
 
 #nav div
-{position:relative; display:inline-table; cursor:pointer; overflow:auto; border:1px solid #eeeeee; text-align:center; color:#ffffff; margin:5px;}
+{position:relative; display:inline-table; cursor:pointer; height:250px; width:250px; overflow:auto; border:1px solid #eeeeee; text-align:center; color:#ffffff; margin:5px;}
 
 #nav div.c2
 {background:#ff0000;}
