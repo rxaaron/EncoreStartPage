@@ -17,9 +17,7 @@ and open the template in the editor.
     </head>
     <body>
         <div id="banner">
-            <center>
             <img src="rsc/ENC_Logo.png" alt="Encore!!!" width ="250" height="100">
-            </center>
         </div>
         <div id="main">
             <div id="nav">
