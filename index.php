@@ -21,18 +21,20 @@ and open the template in the editor.
             <img src="rsc/ENC_Logo.png" alt="Encore!!!" width ="250" height="100">
             </center>
         </div>
-        <div id="nav">
-            <div id="cs" class="c2" onclick="navigate('narclog/');">
-                <p>C II Log</p>
-            </div>
-            <div id="er" class="erbox" onclick="navigate('erbox/');">
-                <p>ER Box</p>
-            </div>
-            <div id="pais" class="pais" onclick="navigate('pais/');">
-                <p>PAIS Bulk</p>
-            </div>
-            <div id="sfc" class="sfcform" onclick="navigate('sfc/');">
-                <p>SFC Formulary</p>
+        <div id="main">
+            <div id="nav">
+                <div id="cs" class="c2" onclick="navigate('narclog/');">
+                    <p>C II Log</p>
+                </div>
+                <div id="er" class="erbox" onclick="navigate('erbox/');">
+                    <p>ER Box</p>
+                </div>
+                <div id="pais" class="pais" onclick="navigate('pais/');">
+                    <p>PAIS Bulk</p>
+                </div>
+                <div id="sfc" class="sfcform" onclick="navigate('sfc/');">
+                    <p>SFC Formulary</p>
+                </div>
             </div>
         </div>
     </body>

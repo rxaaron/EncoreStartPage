@@ -11,7 +11,7 @@ body
 {margin:0; padding:0; color:#303030; background:#afafaf; font:76% Verdana,Tahoma,sans-serif;}
 
 #main
-{width:545px; height:545px; top:20px; left:200px; position:absolute; background:#000000;}
+{width:50%; height:100%; top:105px; left:200px; position:absolute; background:#000000;}
 
 #banner
 {width:545px; height:100px; top:20px; left:200px; position:absolute;}
@@ -20,28 +20,28 @@ body
 {}
 
 #nav div
-{position:absolute; display:table; cursor:pointer; width:250px; height:250px; overflow:hidden; border:1px solid #eeeeee; text-align:center; color:#ffffff;}
+{position:relative; display:inline-table; cursor:pointer; overflow:auto; border:1px solid #eeeeee; text-align:center; color:#ffffff; margin:5px;}
 
 #nav div.c2
-{top:135px; left:215px; background:#ff0000;}
+{background:#ff0000;}
 
 #nav div.c2:hover
 {background:#cb0000;}
 
 #nav div.erbox
-{top:135px; left:480px; background:#9100ff;}
+{background:#9100ff;}
 
 #nav div.erbox:hover
 {background:#5b029f}
 
 #nav div.pais
-{top:400px; left:215px; background:#0022ff;}
+{background:#0022ff;}
 
 #nav div.pais:hover
 {background:#001494;}
 
 #nav div.sfcform
-{top:400px; left:480px; background:#00ffda;}
+{background:#00ffda;}
 
 #nav div.sfcform:hover
 {background:#00b298;}
