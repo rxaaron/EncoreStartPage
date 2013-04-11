@@ -43,7 +43,7 @@ and open the template in the editor.
                     <p>SFC Formulary</p>
                 </div>
                 <div id="documents" class="documents" onclick="navigate('docs/');">
-                    <p>Document Manager</p>
+                    <p>Documents</p>
                 </div>
             </div>
         </div>
