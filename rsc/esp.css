@@ -20,7 +20,7 @@ body
 {}
 
 #nav div
-{position:relative; display:inline-table; cursor:pointer; height:250px; width:250px; overflow:auto; border:1px solid #eeeeee; text-align:center; color:#ffffff; margin:5px;}
+{position:relative; display:inline-table; float:left; cursor:pointer; height:250px; width:250px; overflow:auto; border:1px solid #eeeeee; text-align:center; color:#ffffff; margin:5px;}
 
 #nav div.c2
 {background:#ff0000;}
