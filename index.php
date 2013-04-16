@@ -9,6 +9,20 @@
             function navigate(inpt){
                 document.location.href= inpt;
             }
+            function clearbox(inpt2){
+             document.getElementById(inpt2).innerHTML="";
+             return false;
+            }
+            function expandbox(inpt) {
+                //var xmlhttp;
+                //xmlhttp=new XMLHttpRequest();
+                //xmlhttp.open("POST","res.php",false);
+                //xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+                //xmlhttp.send("queryString="+inpt);
+                x="Description here blah blah blah blah.<br><br><a href=\"/blah\" onclick=\"return clearbox("+inpt+")\">Close</a>";
+                document.getElementById(inpt).innerHTML=x;
+                return false;
+            }
         </script>
     </head>
     <body>
@@ -42,6 +56,9 @@
                     <p>Documents</p>
                 </div>
             </div>
+        </div>
+        <div id="sidebar">
+            <?php include_once 'manifests/scripts/mfst_outstanding.php'; ?>
         </div>
     </body>
 </html>

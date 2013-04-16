@@ -71,3 +71,6 @@ body
 {background:#d7ce16;}
 #nav div p
 {display:table-cell; vertical-align:middle; text-align:center; font-weight:bold; font-size:2em;}
+
+#sidebar
+{position:fixed; top:0px; right:0px; height:100%; width:260px; overflow:auto; background:#e0e0e0; border-left:2px solid #c0c0c0;}
