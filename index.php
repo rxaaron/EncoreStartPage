@@ -14,13 +14,13 @@
              return false;
             }
             function expandbox(inpt) {
-                //var xmlhttp;
-                //xmlhttp=new XMLHttpRequest();
-                //xmlhttp.open("POST","res.php",false);
-                //xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
-                //xmlhttp.send("queryString="+inpt);
-                x="Description here blah blah blah blah.<br><br><a href=\"/blah\" onclick=\"return clearbox("+inpt+")\">Close</a>";
-                document.getElementById(inpt).innerHTML=x;
+                var xmlhttp;
+                xmlhttp=new XMLHttpRequest();
+                xmlhttp.open("POST","manifests/scripts/mfst_comments.php",false);
+                xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+                xmlhttp.send("ID="+inpt);
+                x="comm"+inpt;
+                document.getElementById(x).innerHTML=xmlhttp.responseText;
                 return false;
             }
         </script>

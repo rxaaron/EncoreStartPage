@@ -72,5 +72,22 @@ body
 #nav div p
 {display:table-cell; vertical-align:middle; text-align:center; font-weight:bold; font-size:2em;}
 
+/**Manifest Management Section**/
+
 #sidebar
-{position:fixed; top:0px; right:0px; height:100%; width:260px; overflow:auto; background:#e0e0e0; border-left:2px solid #c0c0c0;}
+{position:fixed; top:0px; right:0px; height:100%; width:260px; overflow:scroll; background:#e0e0e0; border-left:2px solid #c0c0c0;}
+
+#sidebar h1
+{font-size:1.5em;}
+
+#sidebar h2
+{font-size:1.1em;}
+
+#sidebar p
+{text-align:right;}
+
+#sidebar div.manifests
+{background:#ffffff; border-radius:5px; border:1px solid #6e6e6e; padding: 0px 5px 5px 5px; width:220px; margin-left:5px; display:inline; float:left; font-size:0.9em;}
+
+#sidebar div.comments
+{font-size:1em; display:inline; float:left;}
