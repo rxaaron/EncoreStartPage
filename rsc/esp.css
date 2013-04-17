@@ -11,7 +11,7 @@ body
 {margin:0; padding:0; color:#303030; background:#e8e8e8; font:76% Verdana,Tahoma,sans-serif;}
 
 #main
-{width:70%; height:100%; top:5px; left:265px; position:absolute;}
+{right:265px; height:100%; top:5px; left:265px; position:absolute;}
 
 #banner
 {width:260px; height:100px; top:10px; left:5px; position:absolute;}
