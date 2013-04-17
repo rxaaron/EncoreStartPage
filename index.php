@@ -10,8 +10,12 @@
                 document.location.href= inpt;
             }
             function clearbox(inpt2){
-             document.getElementById(inpt2).innerHTML="";
-             return false;
+                y="comm"+inpt2;
+                z="a"+inpt2;
+                document.getElementById(z).innerHTML="Show Comments";
+                document.getElementById(y).innerHTML="";
+                document.getElementById(z).onclick = function () { expandbox(inpt2); };
+                return false;
             }
             function expandbox(inpt) {
                 var xmlhttp;
@@ -19,8 +23,11 @@
                 xmlhttp.open("POST","manifests/scripts/mfst_comments.php",false);
                 xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
                 xmlhttp.send("ID="+inpt);
+                w="a"+inpt;
                 x="comm"+inpt;
+                document.getElementById(w).innerHTML="Hide Comments";
                 document.getElementById(x).innerHTML=xmlhttp.responseText;
+                document.getElementById(w).onclick = function () { clearbox(inpt); };
                 return false;
             }
         </script>
