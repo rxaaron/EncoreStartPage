@@ -30,11 +30,20 @@
                 document.getElementById(w).onclick = function () { clearbox(inpt); };
                 return false;
             }
+            function showadmin(v){
+                document.getElementById(v).style.display='inline-table';
+                document.getElementById("enclogo").onclick = function () { hideadmin(v); };
+                return false;
+            }
+            function hideadmin(u){
+                document.getElementById(u).style.display='none';
+                document.getElementById("enclogo").onclick = function () { showadmin(u); };
+            }
         </script>
     </head>
     <body>
         <div id="banner">
-            <img src="rsc/ENC_Logo.png" alt="Encore!!!" width ="250" height="100">
+            <img id="enclogo" src="rsc/ENC_Logo.png" alt="Encore!!!" width ="250" height="100" onclick="showadmin('admin');">
         </div>
         <div id="main">
             <div id="nav">
@@ -46,6 +55,12 @@
                 </div>
                 <div id="calendar" class="calendar" onclick="navigate('calendar/');">
                     <p>Calendar</p>
+                </div>
+                <div id="admin" class="admin">
+                    <p>
+                        <a href="phpmyadmin/">PhpMyAdmin</a><br /><br />
+                        <a href="https://gmapserver:10000">WebMin</a>
+                    </p>
                 </div>
                 <div id="er" class="erbox" onclick="navigate('erbox/');">
                     <p>ER Box</p>
@@ -62,7 +77,7 @@
                 <div id="documents" class="documents" onclick="navigate('docs/');">
                     <p>Documents</p>
                 </div>
-            </div>
+             </div>
         </div>
         <div id="sidebar">
             <?php include_once 'manifests/scripts/mfst_outstanding.php'; ?>

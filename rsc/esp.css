@@ -69,8 +69,15 @@ body
 
 #nav div.documents:hover
 {background:#d7ce16;}
+
 #nav div p
 {display:table-cell; vertical-align:middle; text-align:center; font-weight:bold; font-size:2em;}
+
+#nav div.admin
+{background:#000000; color:#ffffff; display:none;}
+
+#nav div a
+{color:#ffffff;}
 
 /**Manifest Management Section**/
 
@@ -85,6 +92,9 @@ body
 
 #sidebar p
 {text-align:right;}
+
+#sidebar a
+{color:#0b0b61;}
 
 #sidebar div.manifests
 {background:#ffffff; border-radius:5px; border:1px solid #6e6e6e; padding: 0px 5px 5px 5px; width:220px; margin-left:5px; display:inline; float:left; font-size:0.9em;}
