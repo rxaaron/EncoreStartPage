@@ -59,7 +59,8 @@
                 <div id="admin" class="admin">
                     <p>
                         <a href="phpmyadmin/">PhpMyAdmin</a><br /><br />
-                        <a href="https://gmapserver:10000">WebMin</a>
+                        <a href="https://gmapserver:10000">WebMin</a><br /><br />
+                        <a href="http://rxaaron.github.com">GitHub</a>
                     </p>
                 </div>
                 <div id="er" class="erbox" onclick="navigate('erbox/');">
