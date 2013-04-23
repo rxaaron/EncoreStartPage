@@ -47,13 +47,13 @@
         </div>
         <div id="main">
             <div id="nav">
-                <div id="wiki" class="wiki" onclick="navigate('wiki/');">
+                <div id="wiki" class="wiki" onclick="navigate('http://gmapserver.grcs.local/wiki/');">
                     <p>Wiki</p>
                 </div>
-                <div id="cs" class="c2" onclick="navigate('narclog/');">
+                <div id="cs" class="c2" onclick="navigate('http://gmapserver.grcs.local/narclog/');">
                     <p>C II Log</p>
                 </div>
-                <div id="calendar" class="calendar" onclick="navigate('calendar/');">
+                <div id="calendar" class="calendar" onclick="navigate('http://gmapserver.grcs.local/calendar/');">
                     <p>Calendar</p>
                 </div>
                 <div id="admin" class="admin">
@@ -63,19 +63,19 @@
                         <a href="http://rxaaron.github.com">GitHub</a>
                     </p>
                 </div>
-                <div id="er" class="erbox" onclick="navigate('erbox/');">
+                <div id="er" class="erbox" onclick="navigate('http://gmapserver.grcs.local/erbox/');">
                     <p>ER Box</p>
                 </div>
-                <div id="manifests" class="manifests" onclick="navigate('manifests/');">
+                <div id="manifests" class="manifests" onclick="navigate('http://gmapserver.grcs.local/manifests/');">
                     <p>Manifests</p>
                 </div>
-                <div id="pais" class="pais" onclick="navigate('pais/');">
+                <div id="pais" class="pais" onclick="navigate('http://gmapserver.grcs.local/pais/');">
                     <p>PAIS Bulk</p>
                 </div>
-                <div id="sfc" class="sfcform" onclick="navigate('sfc/');">
+                <div id="sfc" class="sfcform" onclick="navigate('http://gmapserver.grcs.local/sfc/');">
                     <p>SFC Formulary</p>
                 </div>
-                <div id="documents" class="documents" onclick="navigate('docs/');">
+                <div id="documents" class="documents" onclick="navigate('http://gmapserver.grcs.local/docs/');">
                     <p>Documents</p>
                 </div>
              </div>
