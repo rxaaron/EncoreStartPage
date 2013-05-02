@@ -101,3 +101,11 @@ body
 
 #sidebar div.comments
 {font-size:1em; display:inline; float:left;}
+
+#nav div:hover
+{animation:pop 1s ease forwards;}
+
+@keyframes pop{
+    from{transform:rotate(0deg);}
+    to{transform:rotate(360deg);}
+}

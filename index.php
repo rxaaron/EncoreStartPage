@@ -5,6 +5,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="rsc/esp.css" type="text/css" />
         <link rel="shortcut icon" href="rsc/favicon.ico" />
+        <script src="rsc/prefixfree.min.js" type="text/javascript"></script>
         <script>
             function navigate(inpt){
                 document.location.href= inpt;
