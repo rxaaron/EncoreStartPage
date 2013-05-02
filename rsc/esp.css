@@ -20,55 +20,55 @@ body
 {}
 
 #nav div
-{position:relative; display:inline-table; float:left; cursor:pointer; height:250px; width:250px; overflow:auto; border:1px solid #eeeeee; text-align:center; color:#ffffff; margin:5px;}
+{position:relative; display:inline-table; float:left; cursor:pointer; height:250px; width:250px; overflow:auto; border:1px solid #eeeeee; text-align:center; color:#ffffff; margin:5px; transition:background-color 1s linear;}
 
 #nav div.c2
-{background:#ff0000;}
+{background-color:#ff0000;}
 
 #nav div.c2:hover
-{background:#cb0000;}
+{background-color:#cb0000;}
 
 #nav div.erbox
-{background:#9100ff;}
+{background-color:#9100ff;}
 
 #nav div.erbox:hover
-{background:#5b029f}
+{background-color:#5b029f}
 
 #nav div.pais
-{background:#0022ff;}
+{background-color:#0022ff;}
 
 #nav div.pais:hover
-{background:#001494;}
+{background-color:#001494;}
 
 #nav div.sfcform
-{background:#00ffda;}
+{background-color:#00ffda;}
 
 #nav div.sfcform:hover
-{background:#00b298;}
+{background-color:#00b298;}
 
 #nav div.wiki
-{background:#46ff65;}
+{background-color:#46ff65;}
 
 #nav div.wiki:hover
-{background:#3cd556;}
+{background-color:#3cd556;}
 
 #nav div.calendar
-{background:#ff9019;}
+{background-color:#ff9019;}
 
 #nav div.calendar:hover
-{background:#e38016;}
+{background-color:#e38016;}
 
 #nav div.manifests
-{background:#16b3e3;}
+{background-color:#16b3e3;}
 
 #nav div.manifests:hover
-{background:#1698c0;}
+{background-color:#1698c0;}
 
 #nav div.documents
-{background:#f8ed20;}
+{background-color:#f8ed20;}
 
 #nav div.documents:hover
-{background:#d7ce16;}
+{background-color:#d7ce16;}
 
 #nav div p
 {display:table-cell; vertical-align:middle; text-align:center; font-weight:bold; font-size:2em;}
@@ -101,11 +101,3 @@ body
 
 #sidebar div.comments
 {font-size:1em; display:inline; float:left;}
-
-#nav div:hover
-{animation:pop 1s ease forwards;}
-
-@keyframes pop{
-    from{transform:rotate(0deg);}
-    to{transform:rotate(360deg);}
-}
